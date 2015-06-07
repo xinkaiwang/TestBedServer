@@ -1,0 +1,3 @@
+[submodule "AnsyncLib"]
+	path = AnsyncLib
+	url = https://github.com/xinkaiwang/AnsyncLib.git

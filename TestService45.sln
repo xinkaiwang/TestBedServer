@@ -3,6 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestService45", "TestService45\TestService45.csproj", "{7A8EFE01-112F-4BF0-9110-365244107A16}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BC4B78EC-CD14-49FF-A740-ABB0060368CD}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnsyncLib", "AnsyncLib\AnsyncLib\AnsyncLib.csproj", "{5366D5D9-0857-4DAC-AB66-B841AA30124C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +22,10 @@ Global
 		{7A8EFE01-112F-4BF0-9110-365244107A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A8EFE01-112F-4BF0-9110-365244107A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A8EFE01-112F-4BF0-9110-365244107A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5366D5D9-0857-4DAC-AB66-B841AA30124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5366D5D9-0857-4DAC-AB66-B841AA30124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5366D5D9-0857-4DAC-AB66-B841AA30124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5366D5D9-0857-4DAC-AB66-B841AA30124C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

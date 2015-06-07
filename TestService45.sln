@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{BC4B78
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnsyncLib", "AnsyncLib\AnsyncLib\AnsyncLib.csproj", "{5366D5D9-0857-4DAC-AB66-B841AA30124C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerCommon", "ServerCommon\ServerCommon\ServerCommon.csproj", "{27C015BB-67D6-4AF2-B15C-FCB701E16867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerCommon.Web", "ServerCommon\ServerCommon.Web\ServerCommon.Web.csproj", "{858FD75E-80A7-4C44-B0E3-486FD25A4432}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,14 @@ Global
 		{5366D5D9-0857-4DAC-AB66-B841AA30124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5366D5D9-0857-4DAC-AB66-B841AA30124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5366D5D9-0857-4DAC-AB66-B841AA30124C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27C015BB-67D6-4AF2-B15C-FCB701E16867}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27C015BB-67D6-4AF2-B15C-FCB701E16867}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27C015BB-67D6-4AF2-B15C-FCB701E16867}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27C015BB-67D6-4AF2-B15C-FCB701E16867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{858FD75E-80A7-4C44-B0E3-486FD25A4432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{858FD75E-80A7-4C44-B0E3-486FD25A4432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{858FD75E-80A7-4C44-B0E3-486FD25A4432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{858FD75E-80A7-4C44-B0E3-486FD25A4432}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

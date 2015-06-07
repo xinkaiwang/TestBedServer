@@ -1,3 +1,6 @@
 [submodule "AnsyncLib"]
 	path = AnsyncLib
 	url = https://github.com/xinkaiwang/AnsyncLib.git
+[submodule "ServerCommon"]
+	path = ServerCommon
+	url = https://github.com/xinkaiwang/ServerCommon.git

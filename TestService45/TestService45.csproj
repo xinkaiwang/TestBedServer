@@ -307,6 +307,20 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AnsyncLib\AnsyncLib\AnsyncLib.csproj">
+      <Project>{5366d5d9-0857-4dac-ab66-b841aa30124c}</Project>
+      <Name>AnsyncLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServerCommon\ServerCommon.Web\ServerCommon.Web.csproj">
+      <Project>{858fd75e-80a7-4c44-b0e3-486fd25a4432}</Project>
+      <Name>ServerCommon.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ServerCommon\ServerCommon\ServerCommon.csproj">
+      <Project>{27c015bb-67d6-4af2-b15c-fcb701e16867}</Project>
+      <Name>ServerCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

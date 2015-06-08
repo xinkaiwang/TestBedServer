@@ -4,3 +4,9 @@
 [submodule "ServerCommon"]
 	path = ServerCommon
 	url = https://github.com/xinkaiwang/ServerCommon.git
+[submodule "JSON-RPC.NET"]
+	path = JSON-RPC.NET
+	url = https://github.com/Astn/JSON-RPC.NET.git
+[submodule "Catty"]
+	path = Catty
+	url = https://github.com/xinkaiwang/Catty.git

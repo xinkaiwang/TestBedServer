@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AustinHarris.JsonRpc", "JSO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catty.Core", "Catty\Catty\Catty.Core.csproj", "{66FC58D9-3402-4EED-9CF8-5825BC057FF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonRpcCatty", "JsonRpcCatty\JsonRpcCatty.csproj", "{093A8A09-291F-43AA-97FB-564E9ED2E6C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +86,12 @@ Global
 		{66FC58D9-3402-4EED-9CF8-5825BC057FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66FC58D9-3402-4EED-9CF8-5825BC057FF3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{66FC58D9-3402-4EED-9CF8-5825BC057FF3}.Release|x86.ActiveCfg = Release|Any CPU
+		{093A8A09-291F-43AA-97FB-564E9ED2E6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093A8A09-291F-43AA-97FB-564E9ED2E6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093A8A09-291F-43AA-97FB-564E9ED2E6C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{093A8A09-291F-43AA-97FB-564E9ED2E6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093A8A09-291F-43AA-97FB-564E9ED2E6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093A8A09-291F-43AA-97FB-564E9ED2E6C2}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
